@@ -24,3 +24,4 @@ feature_ratio_split
 
 Descripción: Este ultimo metodo divide el conjunto de datos basándose en la proporción de una característica específica. Toma un porcentaje de instancias cuyo valor de la característica es menor o igual a un umbral determinado.
 Razón: Por ultimo elegi esta por que util si hay una característica específica que deseas que guíe la partición, por ejemplo, si se sospecha que esa característica es crucial para la predicción y deseas mantener una proporción específica en ambas particiones.
+![Captura de pantalla](https://github.com/Roberto267/particiones/assets/114701095/38000f31-22ff-4739-9687-85390cb9980c)
