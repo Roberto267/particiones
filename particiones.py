@@ -84,7 +84,7 @@ def custom_split(data, train_indices):
 dataset = load_dataset('irisbin.csv')
 
 # Ejemplo de uso de los métodos
-train_set1, test_set1 = random_split(dataset, 0.6)
+train_set1, test_set1 = random_split(dataset, 0.7)
 train_set2, test_set2 = fixed_size_split(dataset, 0.5)
 train_set3, test_set3 = class_split(dataset, 0.6)
 train_set4, test_set4 = stratified_split(dataset, 0.6)
